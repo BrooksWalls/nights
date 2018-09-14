@@ -1,0 +1,90 @@
+﻿body {
+    margin:0;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+.backgroundDark{
+    background-color: #1d1d1d;
+    width:100%;
+    height:100%;
+    z-index:-1000;
+}
+
+.headerTitle {
+    color: #5a2665;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    font-size: 8vw;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.timesFriday {
+    color: #5a5a5a;
+    font-family: 'Dosis', sans-serif;
+    font-size: 65px;
+    position: fixed;
+    transform: rotate(90deg);
+    left: -15%;
+    top: 50%;
+   
+}
+.asterisks {
+    color: #316526;
+    font-family: 'Dosis', sans-serif;
+    font-size: 55px;
+    position: fixed;
+    transform: translate(-50%,-50%);
+    left: 15%;
+    top: 85%;
+}
+
+.linkToShow {
+    color: #316526;
+    font-family: 'Dosis', sans-serif;
+}
+.explicitContent{
+    color: white;
+    font-family: "Dosis";
+    font-weight: bold;
+}
+.nasaImage {
+    position: absolute;
+    left: 80%;
+    top: 70%;
+    transform: translate(-50%,-50%);
+    
+}
+.wrapper{
+    max-width: 960px;
+}
